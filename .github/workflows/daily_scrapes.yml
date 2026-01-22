@@ -1,0 +1,35 @@
+name: Daily Leaderboard Scrape
+
+on:
+  schedule:
+    # Runs at midnight EST (5:00 UTC)
+    - cron: '0 5 * * *'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        
+    - name: Run midnight scrape
+      run: |
+        python scrape_daily_1200.py
+        
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add snapshots/*.csv logs/*.log
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto scrape $(date)" && git push)
