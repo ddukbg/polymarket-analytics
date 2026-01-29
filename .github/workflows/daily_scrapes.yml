@@ -2,7 +2,7 @@ name: Daily Leaderboard Scrape
 
 on:
   schedule:
-  - cron: "0 2 * * *"
+  - cron: "58 2 * * *"
   workflow_dispatch:
   push:  # Add this to keepworkflow active
     branches:
