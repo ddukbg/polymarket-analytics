@@ -312,3 +312,6 @@
 2026-05-05 05:48:32,685 - INFO - 12:00 Daily scrape starting (attempt 1/2)
 2026-05-05 05:48:49,695 - INFO - 12:00 Daily scrape completed: 1000 records
 2026-05-05 05:48:49,695 - INFO - 12:00 scrape job completed successfully
+2026-05-06 06:10:35,836 - INFO - 12:00 Daily scrape starting (attempt 1/2)
+2026-05-06 06:11:01,115 - INFO - 12:00 Daily scrape completed: 1000 records
+2026-05-06 06:11:01,115 - INFO - 12:00 scrape job completed successfully
