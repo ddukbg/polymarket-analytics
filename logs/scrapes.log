@@ -456,3 +456,6 @@
 2026-06-22 09:17:22,045 - INFO - 12:00 Daily scrape starting (attempt 1/2)
 2026-06-22 09:17:40,069 - INFO - 12:00 Daily scrape completed: 1000 records
 2026-06-22 09:17:40,070 - INFO - 12:00 scrape job completed successfully
+2026-06-23 06:56:36,705 - INFO - 12:00 Daily scrape starting (attempt 1/2)
+2026-06-23 06:57:00,911 - INFO - 12:00 Daily scrape completed: 1000 records
+2026-06-23 06:57:00,912 - INFO - 12:00 scrape job completed successfully
