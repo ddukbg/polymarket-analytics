@@ -960,3 +960,10 @@
 2026-11-18 11:31:43,369 - ERROR - 12:00 Daily scrape attempt 2 failed: EmptyDataError: No columns to parse from file
 2026-11-18 11:31:43,369 - ERROR - 12:00 Daily scrape failed after 2 full attempts
 2026-11-18 11:31:43,369 - ERROR - 12:00 scrape job completely failed: No columns to parse from file
+2026-11-19 11:25:51,189 - INFO - 12:00 Daily scrape starting (attempt 1/2)
+2026-11-19 11:27:33,235 - ERROR - 12:00 Daily scrape attempt 1 failed: Exception: Scrape quality too low: 10/10 failed
+2026-11-19 11:27:33,235 - INFO - Waiting 30 seconds before full retry...
+2026-11-19 11:28:03,250 - INFO - 12:00 Daily scrape starting (attempt 2/2)
+2026-11-19 11:29:45,300 - ERROR - 12:00 Daily scrape attempt 2 failed: EmptyDataError: No columns to parse from file
+2026-11-19 11:29:45,300 - ERROR - 12:00 Daily scrape failed after 2 full attempts
+2026-11-19 11:29:45,300 - ERROR - 12:00 scrape job completely failed: No columns to parse from file
